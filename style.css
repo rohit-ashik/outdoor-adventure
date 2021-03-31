@@ -1,0 +1,372 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.top-section{
+    background-image: url(images/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.backoverlay{
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-section{
+    width: 100%;
+    display: flex;
+    padding:20px 0px;
+}
+.logo{
+    width: 15%;
+}
+.logo h1{
+    color: #ffffff;
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+.logo h2{
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.menu{
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 25px 15px;
+    
+}
+.menu ul li a{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+.menu ul li a:hover{
+    color: crimson;
+    transition: all .3s ease;
+}
+.nav-btn{
+    width: 15%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.nav-btn button{
+    padding: 10px 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    background-color: crimson;
+    border: none;
+    transition: all .5s ease;
+}
+.nav-btn button a{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.top-heading-section{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 130px 0px;
+}
+.top-heading-section p i{
+    font-weight: 500;
+}
+.horizontal-line{
+    width: 60px;
+    height: 2px;
+    margin: 8px auto;
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+.top-heading-section h1{
+    margin: 25px 0px 33px 0px;
+    font-size: 50px;
+}
+.top-heading-btn{
+    margin: ;
+}
+
+.top-heading-btn button{
+    padding: 10px 35px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+
+}
+.top-heading-btn button:hover{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    transition: all .1s ease;
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+.top-heading-btn button a{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+/* Mid section */
+
+.mid-section{
+    width: 100%;
+}
+
+.mid-up{
+    width: 100%;
+    text-align: center;
+}
+
+.mid-up p{
+    margin: 60px 0px 10px 0px;
+    color: gray;
+    font-size: 15px;
+}
+.mid-up h5{
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.mid-event-section{
+    width: 1005;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.mid-event-section h2{
+    font-weight: 600;
+}
+
+
+.mid-gallery{
+    width: 100%;
+}
+.mid-g{
+    width: 100%;
+    display: flex;
+}
+.mid-left{
+    width: 50%;
+    padding: 40px 40px 40px 180px;
+    text-align: center;
+}
+.mid-left img{
+    width: 100%;
+    
+}
+
+.mid-right{
+    width: 50%;
+    padding: 40px 180px 40px 40px;
+    text-align: center;
+}
+.mid-right img{
+    width: 100%;
+}
+.mid-left h3, .mid-right h3{
+    margin-top: 25px;
+}
+.mid-left p, .mid-right p{
+    color: gray;
+    font-size: 13px;
+    margin: 5px 0px;
+    padding: 0px 3px;
+}
+.learn-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.learn-more h6{
+    margin-right: 5px;
+    letter-spacing: 2px;
+    color: crimson;
+}
+.learn-more i{
+    color: crimson;
+}
+
+
+
+/*explore section */
+
+
+.explore-section{
+    width: 100%;
+    background-image: url(images/10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    margin: 100px 0px;
+    position: relative;
+}
+.explore{
+    width: 100%;
+    display: flex;
+    
+}
+.exp-left{
+    width: 50%;
+}
+.exp-right{
+    width: 50%;
+    margin: 8% 0px;
+   
+}
+.exp-right h2{
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.horizontal-line-left{
+    width: 60px;
+    height: 2px;
+    margin: 10px 0px;
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+.exp-right p{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 14px;
+    padding-right: 30%;
+    margin-top: 30px;
+}
+
+.learn-more-white{
+    display: flex;
+    
+    margin-top: 30px;
+}
+.learn-more-white h6{
+    margin-right: 5px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.learn-more-white i{
+    color: #ffffff;
+}
+
+/*upcoming tours */
+
+.upcoming-tours{
+    width: 100%;
+}
+.upcoming{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.upcoming1{
+    width: 33.34%;
+    /* margin-right: 10px; */
+    /* padding: 30px 25px 0px 0px; */
+    margin-top: 30px;
+    
+}
+.upcoming1 h4{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    
+}
+.upcoming1 p{
+    color: gray;
+    font-weight: 400;
+    padding-right: 70px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.horizontal-line-lefth2{
+    width: 60px;
+    height: 2px;
+    margin: 15px 0px 40px 0px;
+    background-color: crimson;
+    border-radius: 5px;
+}
+.upcoming2{
+    width: 33.33%;
+    
+    
+}
+.upcoming2 :first-child{
+    display: block;
+    width: 100%;
+   
+    margin: 30px 30px 20px 0px;
+}
+.upcoming2 :last-child{
+    
+    width: 100%;
+    margin: 0px 30px 30px 0px;
+}
+.upcoming3{
+    width: 33.33%;
+    
+}
+.upcoming3 :first-child{
+   
+    width: 100%;
+    padding: 30px 0px 20px 20px;
+    
+}
+.upcoming3 :last-child{
+    
+    width: 100%;
+    margin: 0px 0px 20px 20px;
+}
+.footer{
+    background-color: #191919;
+    text-align: center;
+    color: #ABABAB;
+    padding: 40px 0px 10px 0px;
+}
+.footer p{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
